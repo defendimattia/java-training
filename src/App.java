@@ -7,6 +7,7 @@ import exercise4.exercise4;
 import exercise5.exercise5;
 import exercise6.exercise6;
 import exercise7.exercise7;
+import exercise8.exercise8;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -18,6 +19,6 @@ public class App {
         System.out.println(exercise5.incrementString("Y;wjw\\Mq|~.muJ@G!iE:6TR`?t62732582231021"));
         System.out.println(exercise6.scramble("aabbcamaomsccdd", "commas"));
         System.out.println(exercise7.formatDuration(6087600));
-
+        System.out.println(exercise8.makeReadable(359999));
     }
 }
