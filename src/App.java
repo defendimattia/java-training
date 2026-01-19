@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 import exercise1.exercise1;
+import exercise10.exercise10;
 import exercise2.exercise2;
 import exercise3.exercise3;
 import exercise4.exercise4;
@@ -22,5 +23,6 @@ public class App {
         System.out.println(exercise7.formatDuration(6087600));
         System.out.println(exercise8.makeReadable(39999));
         System.out.println(Arrays.toString(exercise9.dirReduc(new String[] { "SOUTH", "SOUTH"})));
+        System.out.println(exercise10.alphanumeric("dhuehurehf74!hfwhd"));
     }
 }
