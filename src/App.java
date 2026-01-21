@@ -3,6 +3,7 @@ import java.util.Arrays;
 import exercise1.exercise1;
 import exercise10.exercise10;
 import exercise11.exercise11;
+import exercise12.exercise12;
 import exercise2.exercise2;
 import exercise3.exercise3;
 import exercise4.exercise4;
@@ -27,5 +28,13 @@ public class App {
         System.out.println(exercise10.alphanumeric("dhuehurehf74!hfwhd"));
         System.out.println(exercise11.rangeExtraction(
                 new int[] {-51, -50, -49, -48, -45, -42, -40, -38, -36, -33, -31, -30, -28, -25, -24, -23, -21, -20, -18, -15, -12, -11, -8, -5, -3, 0, 1, 2, 5, 6, 7}));
+        System.out.println(exercise12.stripComments("apple # comment\n" +
+                "banana\n" +
+                "\n" +
+                "carrot // inline comment\n" +
+                "// only comment line\n" +
+                "date",
+                new String[] { "#", "//" }));
+        
     }
 }
