@@ -9,6 +9,7 @@ import exercise14.exercise14;
 import exercise15.exercise15;
 import exercise16.exercise16;
 import exercise17.exercise17;
+import exercise18.exercise18;
 import exercise2.exercise2;
 import exercise3.exercise3;
 import exercise4.exercise4;
@@ -42,6 +43,7 @@ public class App {
         // System.out.println(exercise14.top3("e e e e DDD ddd DdD: ddd ddd aa aA Aa, bb
         // cc cC e e e"));
         // System.out.println(exercise16.isNarcissistic(153));
-        System.out.println(Arrays.toString(exercise17.isPerfectPower(12)));
+        // System.out.println(Arrays.toString(exercise17.isPerfectPower(8)));
+        System.out.println(exercise18.isInteresting(1232, new int[] {}));
     }
 }
