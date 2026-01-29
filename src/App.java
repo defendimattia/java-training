@@ -12,6 +12,7 @@ import exercise17.exercise17;
 import exercise18.exercise18;
 import exercise19.exercise19;
 import exercise2.exercise2;
+import exercise20.VigenereCipher;
 import exercise3.exercise3;
 import exercise4.exercise4;
 import exercise5.exercise5;
@@ -46,6 +47,8 @@ public class App {
         // System.out.println(exercise16.isNarcissistic(153));
         // System.out.println(Arrays.toString(exercise17.isPerfectPower(8)));
         // System.out.println(exercise18.isInteresting(1232, new int[] {}));
-        System.out.println(exercise19.mix("Are they here", "yes, they are here"));
+        // System.out.println(exercise19.mix("Are they here", "yes, they are here"));
+        VigenereCipher testing = new VigenereCipher("abcdefghijklmnopqrstuvwxyz", "password");
+        System.out.println(testing.encode("hello mondo"));
     }
 }
