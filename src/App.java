@@ -21,6 +21,7 @@ import exercise6.exercise6;
 import exercise7.exercise7;
 import exercise8.exercise8;
 import exercise9.exercise9;
+import exercise22.exercise22;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -51,6 +52,7 @@ public class App {
         // System.out.println(exercise19.mix("Are they here", "yes, they are here"));
         // VigenereCipher testing = new VigenereCipher("abcdefghijklmnopqrstuvwxyz", "password");
         // System.out.println(testing.encode("hello mondo"));
-        System.out.println(exercise21.sequence(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 }));
+        // System.out.println(exercise21.sequence(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 }));
+        System.out.println(exercise22.greedy(new int[] { 6,6,6,3,3}));
     }
 }
