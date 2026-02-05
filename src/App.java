@@ -23,6 +23,7 @@ import exercise8.exercise8;
 import exercise9.exercise9;
 import exercise22.exercise22;
 import exercise23.exercise23;
+import exercise25.exercise25;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -55,5 +56,6 @@ public class App {
         // System.out.println(testing.encode("hello mondo"));
         // System.out.println(exercise21.sequence(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 }));
         // System.out.println(exercise22.greedy(new int[] { 6,6,6,3,3}));
+        System.out.println(exercise25.findMissingLetter(new char[] {'L','M','N','O','P','R','S'}));
     }
 }
