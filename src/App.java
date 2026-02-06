@@ -26,6 +26,7 @@ import exercise23.exercise23;
 import exercise25.exercise25;
 import exercise26.exercise26;
 import exercise27.exercise27;
+import exercise28.exercise28;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -60,6 +61,7 @@ public class App {
         // System.out.println(exercise22.greedy(new int[] { 6,6,6,3,3}));
         // System.out.println(exercise25.findMissingLetter(new char[] {'L','M','N','O','P','R','S'}));
         // System.out.println(exercise26.workOnStrings("abc", "cde"));
-        System.out.println(exercise27.rgb(265, 134, 50));
+        // System.out.println(exercise27.rgb(265, 134, 50));
+        System.out.println(Arrays.toString(exercise28.productFib(714)));
     }
 }
