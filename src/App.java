@@ -15,6 +15,7 @@ import exercise2.exercise2;
 import exercise20.VigenereCipher;
 import exercise21.exercise21;
 import exercise3.exercise3;
+import exercise30.exercise30;
 import exercise4.exercise4;
 import exercise5.exercise5;
 import exercise6.exercise6;
@@ -64,6 +65,7 @@ public class App {
         // System.out.println(exercise26.workOnStrings("abc", "cde"));
         // System.out.println(exercise27.rgb(265, 134, 50));
         // System.out.println(Arrays.toString(exercise28.productFib(714)));
-        System.out.println(exercise29.firstNonRepeatingLetter("sTreSS"));
+        // System.out.println(exercise29.firstNonRepeatingLetter("sTreSS"));
+        System.out.println(exercise30.orderWeight("103 123 4444 99 2000"));
     }
 }
