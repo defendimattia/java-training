@@ -16,6 +16,8 @@ import exercise20.VigenereCipher;
 import exercise21.exercise21;
 import exercise3.exercise3;
 import exercise30.exercise30;
+import exercise31.exercise31;
+import exercise32.exercise32;
 import exercise4.exercise4;
 import exercise5.exercise5;
 import exercise6.exercise6;
@@ -57,15 +59,19 @@ public class App {
         // System.out.println(Arrays.toString(exercise17.isPerfectPower(8)));
         // System.out.println(exercise18.isInteresting(1232, new int[] {}));
         // System.out.println(exercise19.mix("Are they here", "yes, they are here"));
-        // VigenereCipher testing = new VigenereCipher("abcdefghijklmnopqrstuvwxyz", "password");
+        // VigenereCipher testing = new VigenereCipher("abcdefghijklmnopqrstuvwxyz",
+        // "password");
         // System.out.println(testing.encode("hello mondo"));
-        // System.out.println(exercise21.sequence(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 }));
+        // System.out.println(exercise21.sequence(new int[] { -2, 1, -3, 4, -1, 2, 1,
+        // -5, 4 }));
         // System.out.println(exercise22.greedy(new int[] { 6,6,6,3,3}));
-        // System.out.println(exercise25.findMissingLetter(new char[] {'L','M','N','O','P','R','S'}));
+        // System.out.println(exercise25.findMissingLetter(new char[]
+        // {'L','M','N','O','P','R','S'}));
         // System.out.println(exercise26.workOnStrings("abc", "cde"));
         // System.out.println(exercise27.rgb(265, 134, 50));
         // System.out.println(Arrays.toString(exercise28.productFib(714)));
         // System.out.println(exercise29.firstNonRepeatingLetter("sTreSS"));
-        System.out.println(exercise30.orderWeight("103 123 4444 99 2000"));
+        // System.out.println(exercise30.orderWeight("103 123 4444 99 2000"));
+        System.out.println(exercise31.isSolved(new int[][] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 2 } }));
     }
 }
