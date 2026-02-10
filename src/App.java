@@ -72,6 +72,7 @@ public class App {
         // System.out.println(Arrays.toString(exercise28.productFib(714)));
         // System.out.println(exercise29.firstNonRepeatingLetter("sTreSS"));
         // System.out.println(exercise30.orderWeight("103 123 4444 99 2000"));
-        System.out.println(exercise31.isSolved(new int[][] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 2 } }));
+        // System.out.println(exercise31.isSolved(new int[][] { { 0, 0, 0 }, { 0, 1, 0 }, { 0, 0, 2 } }));
+        exercise32.removNb(50).forEach(arr -> System.out.println(Arrays.toString(arr)));
     }
 }
