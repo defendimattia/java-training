@@ -19,6 +19,7 @@ import exercise30.exercise30;
 import exercise31.exercise31;
 import exercise32.exercise32;
 import exercise33.exercise33;
+import exercise34.exercise34;
 import exercise4.exercise4;
 import exercise5.exercise5;
 import exercise6.exercise6;
@@ -77,7 +78,8 @@ public class App {
         // }, { 0, 0, 2 } }));
         // exercise32.removNb(50).forEach(arr ->
         // System.out.println(Arrays.toString(arr)));
-        System.out.println(Arrays.toString(
-                exercise33.flapDisplay(new String[] { "HELLO " }, new int[][] { { 15, 49, 50, 48, 43, 13 } })));
+        // System.out.println(Arrays.toString(
+        //         exercise33.flapDisplay(new String[] { "HELLO " }, new int[][] { { 15, 49, 50, 48, 43, 13 } })));
+        System.out.println(exercise34.factors(7775460));
     }
 }
