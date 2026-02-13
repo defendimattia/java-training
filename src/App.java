@@ -21,6 +21,7 @@ import exercise32.exercise32;
 import exercise33.exercise33;
 import exercise34.exercise34;
 import exercise35.exercise35;
+import exercise36.exercise36;
 import exercise4.exercise4;
 import exercise5.exercise5;
 import exercise6.exercise6;
@@ -83,6 +84,7 @@ public class App {
         // exercise33.flapDisplay(new String[] { "HELLO " }, new int[][] { { 15, 49, 50,
         // 48, 43, 13 } })));
         // System.out.println(exercise34.factors(7775460));
-        System.out.println(exercise35.sumIntervals(new int[][] { { -2, -1 }, { -1, 0 }, { 0, 21 } }));
+        // System.out.println(exercise35.sumIntervals(new int[][] { { -2, -1 }, { -1, 0 }, { 0, 21 } }));
+        System.out.println(exercise36.zeros(12));
     }
 }
