@@ -24,6 +24,7 @@ import exercise35.exercise35;
 import exercise36.exercise36;
 import exercise37.exercise37;
 import exercise38.exercise38;
+import exercise39.exercise39;
 import exercise4.exercise4;
 import exercise5.exercise5;
 import exercise6.exercise6;
@@ -90,7 +91,8 @@ public class App {
         // }, { 0, 21 } }));
         // System.out.println(exercise36.zeros(12));
         // System.out.println(Arrays.toString(exercise37.tribonacci(new double[] { 4.0, 8.0, 7.0 }, 1)));
-        System.out.println(exercise38.decode(".... . -.--   .--- ..- -.. ."));
+        // System.out.println(exercise38.decode(".... . -.--   .--- ..- -.. ."));
+        System.out.println(exercise39.singlePermutations("aabb"));
 
     }
 }
