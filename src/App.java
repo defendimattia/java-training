@@ -28,6 +28,7 @@ import exercise38.exercise38;
 import exercise39.exercise39;
 import exercise4.exercise4;
 import exercise40.exercise40;
+import exercise41.exercise41;
 import exercise5.exercise5;
 import exercise6.exercise6;
 import exercise7.exercise7;
@@ -96,8 +97,9 @@ public class App {
         // 8.0, 7.0 }, 1)));
         // System.out.println(exercise38.decode(".... . -.-- .--- ..- -.. ."));
         // System.out.println(exercise39.singlePermutations("aabb"));
-        System.out.println(
-                exercise40.draw(Arrays.asList(new String[] { "KC", "KH", "QC", "KS", "KD", "QH", "QD", "QS" })));
+        // System.out.println(
+        //         exercise40.draw(Arrays.asList(new String[] { "KC", "KH", "QC", "KS", "KD", "QH", "QD", "QS" })));
+        System.out.println(exercise41.compute(18, 48));
 
     }
 }
