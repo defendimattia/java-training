@@ -29,6 +29,7 @@ import exercise39.exercise39;
 import exercise4.exercise4;
 import exercise40.exercise40;
 import exercise41.exercise41;
+import exercise42.exercise42;
 import exercise5.exercise5;
 import exercise6.exercise6;
 import exercise7.exercise7;
@@ -99,7 +100,8 @@ public class App {
         // System.out.println(exercise39.singlePermutations("aabb"));
         // System.out.println(
         //         exercise40.draw(Arrays.asList(new String[] { "KC", "KH", "QC", "KS", "KD", "QH", "QD", "QS" })));
-        System.out.println(exercise41.compute(18, 48));
+        // System.out.println(exercise41.compute(18, 48));
+        System.out.println(Arrays.toString(exercise42.myFraction(new int[] {60, 20})));
 
     }
 }
