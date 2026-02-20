@@ -31,6 +31,7 @@ import exercise40.exercise40;
 import exercise41.exercise41;
 import exercise42.exercise42;
 import exercise43.exercise43;
+import exercise44.exercise44;
 import exercise5.exercise5;
 import exercise6.exercise6;
 import exercise7.exercise7;
@@ -105,7 +106,8 @@ public class App {
         // System.out.println(exercise41.compute(18, 48));
         // System.out.println(Arrays.toString(exercise42.myFraction(new int[] {60,
         // 20})));
-        System.out.println(exercise43.setReducer(
-                new int[] { 4, 6, 8, 1, 9, 3, 8, 4, 1, 4, 0, 8, 3, 7, 1, 5, 6, 3, 2, 1, 8, 4, 9 }));
+        // System.out.println(exercise43.setReducer(
+        //         new int[] { 4, 6, 8, 1, 9, 3, 8, 4, 1, 4, 0, 8, 3, 7, 1, 5, 6, 3, 2, 1, 8, 4, 9 }));
+        System.out.println(exercise44.squaresNeeded(4));
     }
 }
