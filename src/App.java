@@ -33,6 +33,7 @@ import exercise42.exercise42;
 import exercise43.exercise43;
 import exercise44.exercise44;
 import exercise45.exercise45;
+import exercise46.exercise46;
 import exercise5.exercise5;
 import exercise6.exercise6;
 import exercise7.exercise7;
@@ -110,6 +111,7 @@ public class App {
         // System.out.println(exercise43.setReducer(
         //         new int[] { 4, 6, 8, 1, 9, 3, 8, 4, 1, 4, 0, 8, 3, 7, 1, 5, 6, 3, 2, 1, 8, 4, 9 }));
         // System.out.println(exercise44.squaresNeeded(4));
-        System.out.println(exercise45.josephusPermutation(new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7)),3));
+        // System.out.println(exercise45.josephusPermutation(new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7)),3));
+        System.out.println(Arrays.toString(exercise46.smallest(261235)));
     }
 }
