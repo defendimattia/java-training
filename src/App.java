@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import exercise1.exercise1;
 import exercise10.exercise10;
@@ -35,6 +36,7 @@ import exercise44.exercise44;
 import exercise45.exercise45;
 import exercise46.exercise46;
 import exercise47.exercise47;
+import exercise48.exercise48;
 import exercise5.exercise5;
 import exercise6.exercise6;
 import exercise7.exercise7;
@@ -114,6 +116,7 @@ public class App {
         // System.out.println(exercise44.squaresNeeded(4));
         // System.out.println(exercise45.josephusPermutation(new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7)),3));
         // System.out.println(Arrays.toString(exercise46.smallest(261235)));
-        System.out.println(exercise47.high("what time are we climbing up to the volcano"));
+        // System.out.println(exercise47.high("what time are we climbing up to the volcano"));
+        System.out.println(exercise48.camelCase("camelCase"));
     }
 }
