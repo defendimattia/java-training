@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -39,6 +40,7 @@ import exercise47.exercise47;
 import exercise48.exercise48;
 import exercise49.exercise49;
 import exercise5.exercise5;
+import exercise50.exercise50;
 import exercise6.exercise6;
 import exercise7.exercise7;
 import exercise8.exercise8;
@@ -119,6 +121,7 @@ public class App {
         // System.out.println(Arrays.toString(exercise46.smallest(261235)));
         // System.out.println(exercise47.high("what time are we climbing up to the volcano"));
         // System.out.println(exercise48.camelCase("camelCase"));
-        System.out.println(Arrays.toString(exercise49.sumParts((new int[] { 0, 1, 3, 6, 10 }))));
+        // System.out.println(Arrays.toString(exercise49.sumParts((new int[] { 0, 1, 3, 6, 10 }))));
+        System.out.println(exercise50.perimeter(BigInteger.valueOf(30)));
     }
 }
