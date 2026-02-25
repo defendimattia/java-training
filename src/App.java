@@ -42,6 +42,7 @@ import exercise49.exercise49;
 import exercise5.exercise5;
 import exercise50.exercise50;
 import exercise51.exercise51;
+import exercise52.exercise52;
 import exercise6.exercise6;
 import exercise7.exercise7;
 import exercise8.exercise8;
@@ -124,6 +125,7 @@ public class App {
         // System.out.println(exercise48.camelCase("camelCase"));
         // System.out.println(Arrays.toString(exercise49.sumParts((new int[] { 0, 1, 3, 6, 10 }))));
         // System.out.println(exercise50.perimeter(BigInteger.valueOf(30)));
-        System.out.println(exercise51.nextBiggerNumber(10990));
+        // System.out.println(exercise51.nextBiggerNumber(10990));
+        System.out.println(Arrays.toString(exercise52.deleteNth(new int[] { 20, 37, 20, 21 }, 1)));
     }
 }
