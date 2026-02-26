@@ -131,7 +131,7 @@ public class App {
         // System.out.println(exercise51.nextBiggerNumber(10990));
         // System.out.println(Arrays.toString(exercise52.deleteNth(new int[] { 20, 37, 20, 21 }, 1)));
         // System.out.println(exercise53.thirt(1111111111));
-        System.out.println(exercise54.pingPong("pong-ping-pong-ping-pong-bonk-foom-donk-pong-ping-pong-ping-pong-ping-pong-ping-pong-ping-poof-twat-pong-ping-pong-ping-pong-ring-pong-ping-pong-ping-pong-bong"));
-
+        // System.out.println(exercise54.pingPong("pong-ping-pong-ping-pong-bonk-foom-donk-pong-ping-pong-ping-pong-ping-pong-ping-pong-ping-poof-twat-pong-ping-pong-ping-pong-ring-pong-ping-pong-ping-pong-bong"));
+        System.out.println(exercise55.solve(10000,10));
     }
 }
