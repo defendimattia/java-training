@@ -44,6 +44,8 @@ import exercise50.exercise50;
 import exercise51.exercise51;
 import exercise52.exercise52;
 import exercise53.exercise53;
+import exercise54.exercise54;
+import exercise55.exercise55;
 import exercise6.exercise6;
 import exercise7.exercise7;
 import exercise8.exercise8;
@@ -128,6 +130,8 @@ public class App {
         // System.out.println(exercise50.perimeter(BigInteger.valueOf(30)));
         // System.out.println(exercise51.nextBiggerNumber(10990));
         // System.out.println(Arrays.toString(exercise52.deleteNth(new int[] { 20, 37, 20, 21 }, 1)));
-        System.out.println(exercise53.thirt(1111111111));
+        // System.out.println(exercise53.thirt(1111111111));
+        System.out.println(exercise54.pingPong("pong-ping-pong-ping-pong-bonk-foom-donk-pong-ping-pong-ping-pong-ping-pong-ping-pong-ping-poof-twat-pong-ping-pong-ping-pong-ring-pong-ping-pong-ping-pong-bong"));
+
     }
 }
