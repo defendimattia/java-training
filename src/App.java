@@ -47,6 +47,7 @@ import exercise53.exercise53;
 import exercise54.exercise54;
 import exercise55.exercise55;
 import exercise56.exercise56;
+import exercise57.exercise57;
 import exercise6.exercise6;
 import exercise7.exercise7;
 import exercise8.exercise8;
@@ -134,6 +135,8 @@ public class App {
         // System.out.println(exercise53.thirt(1111111111));
         // System.out.println(exercise54.pingPong("pong-ping-pong-ping-pong-bonk-foom-donk-pong-ping-pong-ping-pong-ping-pong-ping-pong-ping-poof-twat-pong-ping-pong-ping-pong-ring-pong-ping-pong-ping-pong-bong"));
         // System.out.println(exercise55.solve(10000,10));
-        System.out.println(exercise56.notPrimes(2, 222));
+        // System.out.println(exercise56.notPrimes(2, 222));
+        System.out.println(Arrays.toString(exercise57.findMine(
+                new int[][] { { 0, 0, 0, 0 }, { 0, 0, 0, 0 }, { 0, 0, 1, 0 }, { 0, 0, 0, 0 } })));
     }
 }
