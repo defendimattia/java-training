@@ -48,6 +48,7 @@ import exercise54.exercise54;
 import exercise55.exercise55;
 import exercise56.exercise56;
 import exercise57.exercise57;
+import exercise58.exercise58;
 import exercise6.exercise6;
 import exercise7.exercise7;
 import exercise8.exercise8;
@@ -122,21 +123,30 @@ public class App {
         // System.out.println(Arrays.toString(exercise42.myFraction(new int[] {60,
         // 20})));
         // System.out.println(exercise43.setReducer(
-        //         new int[] { 4, 6, 8, 1, 9, 3, 8, 4, 1, 4, 0, 8, 3, 7, 1, 5, 6, 3, 2, 1, 8, 4, 9 }));
+        // new int[] { 4, 6, 8, 1, 9, 3, 8, 4, 1, 4, 0, 8, 3, 7, 1, 5, 6, 3, 2, 1, 8, 4,
+        // 9 }));
         // System.out.println(exercise44.squaresNeeded(4));
-        // System.out.println(exercise45.josephusPermutation(new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7)),3));
+        // System.out.println(exercise45.josephusPermutation(new
+        // ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7)),3));
         // System.out.println(Arrays.toString(exercise46.smallest(261235)));
-        // System.out.println(exercise47.high("what time are we climbing up to the volcano"));
+        // System.out.println(exercise47.high("what time are we climbing up to the
+        // volcano"));
         // System.out.println(exercise48.camelCase("camelCase"));
-        // System.out.println(Arrays.toString(exercise49.sumParts((new int[] { 0, 1, 3, 6, 10 }))));
+        // System.out.println(Arrays.toString(exercise49.sumParts((new int[] { 0, 1, 3,
+        // 6, 10 }))));
         // System.out.println(exercise50.perimeter(BigInteger.valueOf(30)));
         // System.out.println(exercise51.nextBiggerNumber(10990));
-        // System.out.println(Arrays.toString(exercise52.deleteNth(new int[] { 20, 37, 20, 21 }, 1)));
+        // System.out.println(Arrays.toString(exercise52.deleteNth(new int[] { 20, 37,
+        // 20, 21 }, 1)));
         // System.out.println(exercise53.thirt(1111111111));
         // System.out.println(exercise54.pingPong("pong-ping-pong-ping-pong-bonk-foom-donk-pong-ping-pong-ping-pong-ping-pong-ping-pong-ping-poof-twat-pong-ping-pong-ping-pong-ring-pong-ping-pong-ping-pong-bong"));
         // System.out.println(exercise55.solve(10000,10));
         // System.out.println(exercise56.notPrimes(2, 222));
-        System.out.println(Arrays.toString(exercise57.findMine(
-                new int[][] { { 0, 0, 0, 0 }, { 0, 0, 0, 0 }, { 0, 0, 1, 0 }, { 0, 0, 0, 0 } })));
+        // System.out.println(Arrays.toString(exercise57.findMine(
+        // new int[][] { { 0, 0, 0, 0 }, { 0, 0, 0, 0 }, { 0, 0, 1, 0 }, { 0, 0, 0, 0 }
+        // })));
+        System.out.println(exercise58.detectBruteForce(new String[] { "5.5.5.5 LOGIN_FAIL user=x",
+                "5.5.5.5 LOGIN_FAIL user=x", "5.5.5.5 LOGIN_FAIL user=x", "5.5.5.5 LOGIN_SUCCESS user=x",
+                "5.5.5.5 LOGIN_FAIL user=x", "5.5.5.5 LOGIN_FAIL user=x", "5.5.5.5 LOGIN_FAIL user=x" }));
     }
 }
