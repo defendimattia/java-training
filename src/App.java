@@ -51,6 +51,7 @@ import exercise57.exercise57;
 import exercise58.exercise58;
 import exercise59.exercise59;
 import exercise6.exercise6;
+import exercise60.exercise60;
 import exercise7.exercise7;
 import exercise8.exercise8;
 import exercise9.exercise9;
@@ -152,8 +153,9 @@ public class App {
         // LOGIN_SUCCESS user=x",
         // "5.5.5.5 LOGIN_FAIL user=x", "5.5.5.5 LOGIN_FAIL user=x", "5.5.5.5 LOGIN_FAIL
         // user=x" }));
-        System.out.println(
-                Arrays.toString(exercise59.inArray(new String[] { "arp", "live", "strong" }, new String[] {
-                        "lively", "alive", "harp", "sharp", "armstrong" })));
+        // System.out.println(
+        //         Arrays.toString(exercise59.inArray(new String[] { "arp", "live", "strong" }, new String[] {
+        //                 "lively", "alive", "harp", "sharp", "armstrong" })));
+        System.out.println(Arrays.toString(exercise60.onlyOddDigPrimes(100)));
     }
 }
