@@ -57,6 +57,7 @@ import exercise62.exercise62;
 import exercise63.exercise63;
 import exercise64.exercise64;
 import exercise65.exercise65;
+import exercise66.exercise66;
 import exercise7.exercise7;
 import exercise8.exercise8;
 import exercise9.exercise9;
@@ -170,6 +171,8 @@ public class App {
         // System.out.println(exercise62.dblLinear(20));
         // System.out.println(exercise63.candles(11,3));
         // System.out.println(exercise64.search("a **& bZ"));
-        System.out.println(exercise65.adjacentElementsProduct(new int[] { -23, 4, -5, 99, -27, 329, -2, 7, -921 }));
+        // System.out.println(exercise65.adjacentElementsProduct(new int[] { -23, 4, -5,
+        // 99, -27, 329, -2, 7, -921 }));
+        System.out.println(exercise66.fibonacci(1000));
     }
 }
