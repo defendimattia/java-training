@@ -67,6 +67,7 @@ import exercise71.exercise71;
 import exercise72.exercise72;
 import exercise73.exercise73;
 import exercise74.exercise74;
+import exercise75.exercise75;
 import exercise8.exercise8;
 import exercise9.exercise9;
 import exercise22.exercise22;
@@ -198,6 +199,7 @@ public class App {
         // "Bar", "Shell", "Cherry", "Jack", "Bell" } },
         // new int[] { 0, 0, 1 }));
         // System.out.println(Arrays.toString(exercise73.oneTwoThree(45)));
-        System.out.println(exercise74.addCheckDigit("12388878"));
+        // System.out.println(exercise74.addCheckDigit("12388878"));
+        System.out.println(Arrays.toString(exercise75.getCard()));
     }
 }
