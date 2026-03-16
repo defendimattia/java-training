@@ -71,6 +71,7 @@ import exercise75.exercise75;
 import exercise76.exercise76;
 import exercise77.exercise77;
 import exercise78.exercise78;
+import exercise79.exercise79;
 import exercise8.exercise8;
 import exercise9.exercise9;
 import exercise22.exercise22;
@@ -206,6 +207,7 @@ public class App {
         // System.out.println(Arrays.toString(exercise75.getCard()));
         // System.out.println(exercise76.makePassword(26, true, true, true));
         // System.out.println(exercise77.minNumTaxis(new int[][] { { 1, 4 }, { 2, 9 }, { 3, 6 }, { 5, 8 } }));
-        System.out.println(exercise78.urlShortener("https://www.codewars.com/kata/5ef9ca8b76be6d001d5e1c3e"));
+        // System.out.println(exercise78.urlShortener("https://www.codewars.com/kata/5ef9ca8b76be6d001d5e1c3e"));
+        System.out.println(exercise79.CalculateReward(36,27));
     }
 }
